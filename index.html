@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="SEVEN Statistics - Konsultan statistik terpercaya untuk mahasiswa, peneliti, dan profesional. Analisis data, pelatihan, dan pendampingan skripsi/tesis.">
+  <meta name="keywords"
+    content="konsultan statistik, analisis data, SPSS, R, Python, skripsi, tesis, pelatihan statistik">
+  <meta name="author" content="SEVEN Statistics">
+  <title>SEVEN Statistics — Partner Analisis Data Terpercaya</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#beranda" class="navbar-logo">
+        <img src="logo.png" alt="SEVEN Statistics Logo">
+      </a>
+      <div class="navbar-menu" id="navbar-menu">
+        <a href="#beranda" data-page="beranda" class="active">Beranda</a>
+        <a href="#layanan" data-page="layanan">Layanan</a>
+        <a href="#portofolio" data-page="portofolio">Portofolio</a>
+        <a href="#kontak" data-page="kontak">Kontak</a>
+        <a href="javascript:void(0)" class="navbar-cta" onclick="openWhatsApp()">Konsultasi Gratis</a>
+      </div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <!-- ================================================================ -->
+  <!-- ========== PAGE: BERANDA (HOME) ========== -->
+  <!-- ================================================================ -->
+  <div class="page active" id="page-beranda">
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <canvas class="hero-canvas" id="hero-canvas"></canvas>
+      <div class="container">
+        <div class="hero-content">
+          <div class="section-badge dark">
+            <span class="dot"></span>
+            Partner Analisis Data Terpercaya
+          </div>
+          <h1 class="hero-title">
+            Biar Data<br>
+            <span class="highlight">Bicara Fakta</span><br>
+            Dengan Presisi.
+          </h1>
+          <p class="hero-description">
+            Kami mengubah angka kompleks menjadi wawasan jernih. Konsultasi, analisis, dan solusi statistik ahli untuk
+            mahasiswa, peneliti, dan profesional.
+          </p>
+          <div class="hero-buttons">
+            <a href="javascript:void(0)" class="btn btn-primary" onclick="openWhatsApp()">
+              Mulai Konsultasi Gratis
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="#layanan" class="btn btn-outline">Lihat Layanan Kami</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating Stats Decorations -->
+      <div class="hero-stats-float">
+        <!-- Animated Mini Bar Chart -->
+        <svg class="float-anim" width="140" height="100" viewBox="0 0 140 100" style="opacity: 0.4;">
+          <rect x="10" y="60" width="16" height="30" rx="3" fill="rgba(8,145,178,0.4)">
+            <animate attributeName="height" values="10;30;10" dur="3s" repeatCount="indefinite" />
+            <animate attributeName="y" values="80;60;80" dur="3s" repeatCount="indefinite" />
+          </rect>
+          <rect x="34" y="40" width="16" height="50" rx="3" fill="rgba(8,145,178,0.5)">
+            <animate attributeName="height" values="30;50;30" dur="3.5s" repeatCount="indefinite" />
+            <animate attributeName="y" values="60;40;60" dur="3.5s" repeatCount="indefinite" />
+          </rect>
+          <rect x="58" y="30" width="16" height="60" rx="3" fill="rgba(8,145,178,0.6)">
+            <animate attributeName="height" values="40;60;40" dur="2.8s" repeatCount="indefinite" />
+            <animate attributeName="y" values="50;30;50" dur="2.8s" repeatCount="indefinite" />
+          </rect>
+          <rect x="82" y="20" width="16" height="70" rx="3" fill="rgba(8,145,178,0.7)">
+            <animate attributeName="height" values="50;70;50" dur="3.2s" repeatCount="indefinite" />
+            <animate attributeName="y" values="40;20;40" dur="3.2s" repeatCount="indefinite" />
+          </rect>
+          <rect x="106" y="10" width="16" height="80" rx="3" fill="rgba(8,145,178,0.8)">
+            <animate attributeName="height" values="60;80;60" dur="3s" repeatCount="indefinite" />
+            <animate attributeName="y" values="30;10;30" dur="3s" repeatCount="indefinite" />
+          </rect>
+        </svg>
+
+        <!-- Animated Donut Chart -->
+        <svg class="float-anim-delay" width="120" height="120" viewBox="0 0 120 120" style="opacity: 0.35;">
+          <circle cx="60" cy="60" r="40" fill="none" stroke="rgba(8,145,178,0.15)" stroke-width="12" />
+          <circle cx="60" cy="60" r="40" fill="none" stroke="rgba(8,145,178,0.5)" stroke-width="12"
+            stroke-dasharray="180 252" stroke-linecap="round" transform="rotate(-90 60 60)">
+            <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="8s"
+              repeatCount="indefinite" />
+          </circle>
+          <circle cx="60" cy="60" r="40" fill="none" stroke="rgba(99,102,160,0.35)" stroke-width="12"
+            stroke-dasharray="70 252" stroke-dashoffset="-180" stroke-linecap="round" transform="rotate(-90 60 60)">
+            <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="8s"
+              repeatCount="indefinite" />
+          </circle>
+        </svg>
+
+        <!-- Animated Line Chart -->
+        <svg class="float-anim" width="160" height="80" viewBox="0 0 160 80" style="opacity: 0.35;">
+          <polyline points="10,60 30,50 50,55 70,30 90,40 110,20 130,25 150,10" fill="none" stroke="rgba(8,145,178,0.5)"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <animate attributeName="points"
+              values="10,60 30,50 50,55 70,30 90,40 110,20 130,25 150,10;10,55 30,60 50,40 70,45 90,25 110,35 130,15 150,20;10,60 30,50 50,55 70,30 90,40 110,20 130,25 150,10"
+              dur="5s" repeatCount="indefinite" />
+          </polyline>
+          <polyline points="10,65 30,55 50,60 70,35 90,45 110,25 130,30 150,15" fill="none"
+            stroke="rgba(99,102,160,0.25)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+            stroke-dasharray="4,6" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- Stats Counter -->
+    <section class="stats-counter">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <div class="stat-number" data-target="98" data-suffix="%">0</div>
+            <div class="stat-label">Kepuasan Klien</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-1">
+            <div class="stat-number" data-target="500" data-suffix="+">0</div>
+            <div class="stat-label">Proyek Selesai</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-2">
+            <div class="stat-number" data-target="5" data-suffix="+">0</div>
+            <div class="stat-label">Tahun Pengalaman</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-3">
+            <div class="stat-number" data-target="50" data-suffix="+">0</div>
+            <div class="stat-label">Klien Korporat</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services-section">
+      <div class="container">
+        <div class="services-header">
+          <div class="services-header-text">
+            <h2 class="section-title light reveal">Solusi Statistik Komprehensif</h2>
+            <p class="section-subtitle light reveal">7 pilar layanan kami dirancang khusus untuk mengatasi berbagai
+              tantangan data Anda, dari konsep dasar hingga implementasi tingkat lanjut.</p>
+          </div>
+          <a href="#layanan" class="btn btn-outline-dark reveal">
+            Pelajari Semua Layanan
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18l6-6-6-6" />
+            </svg>
+          </a>
+        </div>
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <rect x="3" y="12" width="4" height="9" />
+                <rect x="10" y="8" width="4" height="13" />
+                <rect x="17" y="3" width="4" height="18" />
+              </svg>
+            </div>
+            <h3>Analisis Data</h3>
+            <p>Layanan analisis data komprehensif untuk keperluan riset akademis maupun bisnis. Kami menggunakan metode
+              statistik yang tepat untuk menjawab hipotesis Anda.</p>
+            <a href="#layanan" class="service-link">Lebih Lanjut <span>→</span></a>
+          </div>
+          <!-- Service 2 -->
+          <div class="service-card reveal reveal-delay-1">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" />
+              </svg>
+            </div>
+            <h3>Pelatihan Statistik</h3>
+            <p>Workshop dan pelatihan intensif untuk instansi atau kelompok mengenai metode statistik dan penggunaan
+              perangkat lunak statistik (SPSS, R, Python, dll).</p>
+            <a href="#layanan" class="service-link">Lebih Lanjut <span>→</span></a>
+          </div>
+          <!-- Service 3 -->
+          <div class="service-card reveal reveal-delay-2">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <path d="M4 19.5A2.5 2.5 0 016.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
+              </svg>
+            </div>
+            <h3>Kursus Statistik</h3>
+            <p>Program belajar terstruktur dari dasar hingga mahir. Dirancang untuk individu yang ingin menguasai
+              statistik untuk pengembangan karir atau akademis.</p>
+            <a href="#layanan" class="service-link">Lebih Lanjut <span>→</span></a>
+          </div>
+          <!-- Service 4 -->
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+              </svg>
+            </div>
+            <h3>Konsultasi Statistik</h3>
+            <p>Sesi diskusi one-on-one dengan ahli statistik kami untuk membahas metodologi, interpretasi hasil, atau
+              perencanaan riset Anda secara mendalam.</p>
+            <a href="#layanan" class="service-link">Lebih Lanjut <span>→</span></a>
+          </div>
+          <!-- Service 5 -->
+          <div class="service-card reveal reveal-delay-1">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c6 3 12 0 12 0v-5" />
+              </svg>
+            </div>
+            <h3>Pendampingan Skripsi/Tesis</h3>
+            <p>Bimbingan eksklusif untuk mahasiswa akhir. Kami mendampingi dari perumusan masalah, metodologi, analisis,
+              hingga interpretasi hasil penelitian.</p>
+            <a href="#layanan" class="service-link">Lebih Lanjut <span>→</span></a>
+          </div>
+          <!-- Service 6 -->
+          <div class="service-card reveal reveal-delay-2">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+              </svg>
+            </div>
+            <h3>Pembuatan Dashboard Interaktif</h3>
+            <p>Visualisasi data bisnis Anda dalam satu layar interaktif yang mudah dipahami. Dashboard yang powerful
+              untuk pengambilan keputusan berbasis data.</p>
+            <a href="#layanan" class="service-link">Lebih Lanjut <span>→</span></a>
+          </div>
+          <!-- Service 7 -->
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3>Pembuatan Aplikasi Web</h3>
+            <p>Pengembangan aplikasi web berbasis data dan statistik untuk kebutuhan khusus organisasi atau bisnis Anda
+              dengan teknologi terkini.</p>
+            <a href="#layanan" class="service-link">Lebih Lanjut <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+      <div class="container">
+        <div class="why-choose-grid">
+          <!-- Left Dark Card -->
+          <div class="why-left reveal">
+            <h2>Bukan Sekadar Hasil, Tapi Pemahaman</h2>
+            <div class="why-item">
+              <div class="why-item-icon pulse-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+              <div>
+                <h4>Keahlian Spesifik</h4>
+                <p>Dikerjakan langsung oleh praktisi statistik berpengalaman, bukan sekadar operator software.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon pulse-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                  <line x1="9" y1="9" x2="9.01" y2="9" />
+                  <line x1="15" y1="9" x2="15.01" y2="9" />
+                </svg>
+              </div>
+              <div>
+                <h4>Pendekatan Edukatif</h4>
+                <p>Kami memastikan Anda memahami hasil analisis, bukan sekadar menerima laporan angka.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon pulse-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <h4>Pengerjaan Tepat Waktu</h4>
+                <p>Kami menghargai tenggat waktu Anda. Setiap proyek memiliki timeline yang disiplin.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon pulse-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <div>
+                <h4>Layanan Komprehensif</h4>
+                <p>Dari konsultasi skripsi hingga pembuatan dashboard korporat, kami memiliki solusinya.</p>
+              </div>
+            </div>
+
+            <!-- Animated Scatter Plot inside dark card -->
+            <svg class="scatter-svg" width="100%" height="60" viewBox="0 0 300 60"
+              style="margin-top: 20px; opacity: 0.3;">
+              <circle class="scatter-dot" cx="20" cy="30" r="3" fill="rgba(8,145,178,0.7)" />
+              <circle class="scatter-dot" cx="50" cy="15" r="4" fill="rgba(8,145,178,0.5)" />
+              <circle class="scatter-dot" cx="80" cy="45" r="3" fill="rgba(99,102,160,0.6)" />
+              <circle class="scatter-dot" cx="110" cy="20" r="5" fill="rgba(8,145,178,0.6)" />
+              <circle class="scatter-dot" cx="140" cy="40" r="3" fill="rgba(158,142,126,0.5)" />
+              <circle class="scatter-dot" cx="170" cy="10" r="4" fill="rgba(8,145,178,0.7)" />
+              <circle class="scatter-dot" cx="200" cy="35" r="3" fill="rgba(99,102,160,0.5)" />
+              <circle class="scatter-dot" cx="230" cy="25" r="5" fill="rgba(8,145,178,0.5)" />
+              <circle class="scatter-dot" cx="260" cy="50" r="3" fill="rgba(158,142,126,0.6)" />
+              <circle class="scatter-dot" cx="290" cy="18" r="4" fill="rgba(8,145,178,0.6)" />
+            </svg>
+          </div>
+
+          <!-- Right Side -->
+          <div class="why-right reveal">
+            <h2>Mengapa Memilih SEVEN Statistics?</h2>
+            <p>Kami memahami bahwa setiap data memiliki ceritanya sendiri. Pendekatan kami menggabungkan kekakuan
+              akademis dengan pemahaman praktis yang ramah pengguna.</p>
+            <div class="checklist">
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                Dikerjakan oleh Ahli Statistik tersertifikasi
+              </div>
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                Konsultasi mendalam dua arah
+              </div>
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                Kerahasiaan data terjamin 100%
+              </div>
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                Laporan komprehensif &amp; mudah dibaca
+              </div>
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                Garansi revisi dan pendampingan
+              </div>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary" onclick="openWhatsApp()">Mulai Perjalanan Data Anda</a>
+
+            <!-- Animated Line Chart -->
+            <svg class="line-chart-svg" width="100%" height="80" viewBox="0 0 400 80" style="margin-top: 32px;">
+              <defs>
+                <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:rgba(8,145,178,0.6);stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:rgba(99,102,160,0.6);stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <path class="line-path" d="M10,60 Q40,55 70,40 T130,35 T190,20 T250,30 T310,15 T370,10 L390,8" fill="none"
+                stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M10,65 Q40,60 70,50 T130,48 T190,38 T250,42 T310,30 T370,22 L390,20" fill="none"
+                stroke="rgba(158,142,126,0.2)" stroke-width="1.5" stroke-dasharray="4,6" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How We Work -->
+    <section class="how-we-work">
+      <div class="container">
+        <h2 class="section-title light reveal">Cara Kerja Kami</h2>
+        <p class="section-subtitle light reveal">Proses transparan dan terstruktur untuk memastikan hasil terbaik untuk
+          proyek Anda.</p>
+        <div class="steps-grid">
+          <div class="step-card reveal">
+            <div class="step-number">1</div>
+            <h3>Konsultasi Awal</h3>
+            <p>Ceritakan masalah data Anda. Kami akan mendengarkan dan merekomendasikan solusi yang paling tepat secara
+              gratis.</p>
+          </div>
+          <div class="step-card reveal reveal-delay-1">
+            <div class="step-number">2</div>
+            <h3>Kesepakatan &amp; Perencanaan</h3>
+            <p>Kami menyusun timeline, metodologi, dan penawaran biaya yang transparan. Tidak ada biaya tersembunyi.</p>
+          </div>
+          <div class="step-card reveal reveal-delay-2">
+            <div class="step-number">3</div>
+            <h3>Eksekusi &amp; Pengerjaan</h3>
+            <p>Tim ahli kami mulai memproses data Anda dengan tingkat presisi dan kehati-hatian yang tinggi.</p>
+          </div>
+          <div class="step-card reveal reveal-delay-3">
+            <div class="step-number">4</div>
+            <h3>Penyerahan &amp; Penjelasan</h3>
+            <p>Kami menyerahkan hasil kerja dan memastikan Anda memahami setiap angka melalui sesi penjelasan khusus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title dark reveal">Apa Kata Klien Kami</h2>
+        <p class="section-subtitle dark reveal">Kepercayaan mereka adalah pencapaian terbesar kami.</p>
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal">
+            <div class="testimonial-stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+                class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"SEVEN Statistics sangat membantu dalam pengolahan data disertasi saya. Mereka
+              tidak hanya memberikan output, tapi juga menjelaskan filosofi di balik metode yang digunakan. Sangat
+              profesional."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">BS</div>
+              <div class="testimonial-author-info">
+                <h4>Dr. Budi Santoso</h4>
+                <span>Dosen &amp; Peneliti</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="testimonial-stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+                class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Awalnya saya sangat bingung dengan SPSS. Tim SEVEN begitu sabar mendampingi bab
+              4 tesis saya sampai saya benar-benar paham dan bisa menjawab pertanyaan dosen penguji dengan lancar."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">RW</div>
+              <div class="testimonial-author-info">
+                <h4>Rina Wijaya</h4>
+                <span>Mahasiswa S2</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="testimonial-stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+                class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Dashboard interaktif yang dibangun oleh SEVEN mengubah cara manajemen kami
+              melihat performa sales. Sangat intuitif, cepat, dan akurat. Investasi yang sangat sepadan."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">MB</div>
+              <div class="testimonial-author-info">
+                <h4>PT. Maju Bersama</h4>
+                <span>Klien Korporat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title light reveal">Pertanyaan yang Sering Diajukan</h2>
+        <p class="section-subtitle light reveal" style="margin: 0 auto 48px;">Jawaban atas pertanyaan yang sering
+          diajukan calon klien kami.</p>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Berapa lama proses pengerjaan analisis data?
+              <span class="faq-icon">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Waktu pengerjaan bergantung pada kompleksitas data dan metode yang digunakan. Untuk analisis standar
+                (uji hipotesis, regresi), umumnya membutuhkan 2 hari kerja. Untuk analisis kompleks seperti SEM atau
+                Spatial Statistics, bisa memakan waktu 3-4 hari. Kami akan memberikan estimasi waktu yang jelas di awal
+                proyek.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Apakah kerahasiaan data saya terjamin?
+              <span class="faq-icon">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Tentu saja. Kerahasiaan data klien adalah prioritas utama kami. Kami menerapkan NDA (Non-Disclosure
+                Agreement) dan semua data akan dihapus setelah proyek selesai sesuai kesepakatan. Data Anda tidak akan
+                dibagikan kepada pihak ketiga dalam kondisi apapun.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Software statistik apa saja yang digunakan?
+              <span class="faq-icon">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Kami mahir menggunakan berbagai software statistik termasuk SPSS, R, Python (Pandas, Scikit-learn,
+                Statsmodels), Stata, EViews, AMOS, SmartPLS, GeoDa, dan berbagai tools visualisasi seperti Tableau dan
+                Power BI. Pemilihan software disesuaikan dengan kebutuhan analisis Anda.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Apakah ada garansi jika dosen pembimbing meminta revisi?
+              <span class="faq-icon">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Ya, kami memberikan garansi revisi. Jika dosen pembimbing meminta perubahan pada analisis yang telah
+                kami kerjakan, kami akan merevisi tanpa biaya tambahan selama masih dalam lingkup pekerjaan yang
+                disepakati. Kami berkomitmen mendampingi Anda hingga mendapat approval dari pembimbing.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="reveal">Siap Memecahkan Masalah Data Anda?</h2>
+        <p class="reveal">Jangan biarkan data yang rumit menghambat progres riset atau bisnis Anda. Hubungi kami hari
+          ini untuk konsultasi gratis.</p>
+        <a href="javascript:void(0)" class="btn btn-white btn-lg reveal" onclick="openWhatsApp()">Hubungi Kami
+          Sekarang</a>
+      </div>
+    </section>
+
+  </div>
+  <!-- END PAGE: BERANDA -->
+
+
+  <!-- ================================================================ -->
+  <!-- ========== PAGE: LAYANAN ========== -->
+  <!-- ================================================================ -->
+  <div class="page" id="page-layanan">
+
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="reveal">Layanan Kami</h1>
+        <p class="reveal">7 pilar keahlian kami, dirancang untuk memberikan solusi statistik yang presisi, mendalam, dan
+          aplikatif untuk berbagai kebutuhan.</p>
+      </div>
+    </section>
+
+    <section class="layanan-detail">
+      <div class="container">
+
+        <!-- Layanan 1: Analisis Data -->
+        <div class="layanan-item reveal">
+          <div class="layanan-visual">
+            <!-- Animated Bar Chart -->
+            <svg class="bar-chart-svg" width="200" height="160" viewBox="0 0 200 160">
+              <rect class="bar" x="15" y="100" width="24" height="50" rx="4" fill="rgba(8,145,178,0.3)" />
+              <rect class="bar" x="50" y="70" width="24" height="80" rx="4" fill="rgba(8,145,178,0.45)" />
+              <rect class="bar" x="85" y="40" width="24" height="110" rx="4" fill="rgba(8,145,178,0.6)" />
+              <rect class="bar" x="120" y="55" width="24" height="95" rx="4" fill="rgba(99,102,160,0.5)" />
+              <rect class="bar" x="155" y="20" width="24" height="130" rx="4" fill="rgba(8,145,178,0.75)" />
+              <line x1="10" y1="150" x2="190" y2="150" stroke="rgba(0,0,0,0.1)" stroke-width="1" />
+            </svg>
+          </div>
+          <div class="layanan-content">
+            <span class="layanan-number">Layanan 01</span>
+            <h2>Analisis Data</h2>
+            <p>Layanan analisis data komprehensif untuk keperluan riset akademis maupun bisnis. Kami menggunakan metode
+              statistik yang tepat untuk menjawab hipotesis Anda.</p>
+            <div class="layanan-features">
+              <h4>Yang Anda Dapatkan:</h4>
+              <ul>
+                <li><span class="check">✓</span> Analisis deskriptif &amp; inferensial</li>
+                <li><span class="check">✓</span> Uji hipotesis (t-test, ANOVA, Chi-Square, dll)</li>
+                <li><span class="check">✓</span> Analisis regresi (linear, logistik, ordinal)</li>
+                <li><span class="check">✓</span> Analisis multivariat (PCA, Factor Analysis, Cluster)</li>
+                <li><span class="check">✓</span> Laporan lengkap dengan interpretasi</li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary" onclick="goToContact('Analisis Data')">Pesan Layanan
+              Ini</a>
+          </div>
+        </div>
+
+        <!-- Layanan 2: Pelatihan Statistik -->
+        <div class="layanan-item reverse reveal">
+          <div class="layanan-visual">
+            <!-- Animated Donut Chart -->
+            <svg class="donut-chart-svg" width="160" height="160" viewBox="0 0 160 160">
+              <circle cx="80" cy="80" r="55" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="18" />
+              <circle class="donut-segment" cx="80" cy="80" r="55" fill="none" stroke="rgba(8,145,178,0.7)"
+                stroke-width="18" stroke-linecap="round" transform="rotate(-90 80 80)" style="--dash-val: 40;"
+                stroke-dasharray="0 100" pathLength="100" />
+              <circle class="donut-segment" cx="80" cy="80" r="55" fill="none" stroke="rgba(99,102,160,0.6)"
+                stroke-width="18" stroke-linecap="round" transform="rotate(54 80 80)" style="--dash-val: 30;"
+                stroke-dasharray="0 100" pathLength="100" />
+              <circle class="donut-segment" cx="80" cy="80" r="55" fill="none" stroke="rgba(158,142,126,0.5)"
+                stroke-width="18" stroke-linecap="round" transform="rotate(162 80 80)" style="--dash-val: 20;"
+                stroke-dasharray="0 100" pathLength="100" />
+              <text x="80" y="76" text-anchor="middle" font-size="18" font-weight="800"
+                fill="rgba(8,145,178,0.8)">90%</text>
+              <text x="80" y="95" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.4)">Kepuasan</text>
+            </svg>
+          </div>
+          <div class="layanan-content">
+            <span class="layanan-number">Layanan 02</span>
+            <h2>Pelatihan Statistik</h2>
+            <p>Workshop dan pelatihan intensif untuk instansi atau kelompok mengenai metode statistik dan penggunaan
+              perangkat lunak statistik (SPSS, R, Python, dll).</p>
+            <div class="layanan-features">
+              <h4>Yang Anda Dapatkan:</h4>
+              <ul>
+                <li><span class="check">✓</span> Materi pelatihan terstruktur</li>
+                <li><span class="check">✓</span> Praktik langsung dengan dataset</li>
+                <li><span class="check">✓</span> Sertifikat pelatihan</li>
+                <li><span class="check">✓</span> Modul &amp; materi digital</li>
+                <li><span class="check">✓</span> Sesi tanya jawab interaktif</li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary" onclick="goToContact('Pelatihan Statistik')">Pesan
+              Layanan Ini</a>
+          </div>
+        </div>
+
+        <!-- Layanan 3: Kursus Statistik -->
+        <div class="layanan-item reveal">
+          <div class="layanan-visual">
+            <!-- Animated Line Chart -->
+            <svg class="line-chart-svg" width="220" height="140" viewBox="0 0 220 140">
+              <line x1="20" y1="120" x2="200" y2="120" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+              <line x1="20" y1="90" x2="200" y2="90" stroke="rgba(0,0,0,0.05)" stroke-width="1"
+                stroke-dasharray="3,3" />
+              <line x1="20" y1="60" x2="200" y2="60" stroke="rgba(0,0,0,0.05)" stroke-width="1"
+                stroke-dasharray="3,3" />
+              <line x1="20" y1="30" x2="200" y2="30" stroke="rgba(0,0,0,0.05)" stroke-width="1"
+                stroke-dasharray="3,3" />
+              <path class="line-path" d="M20,110 Q45,100 60,85 T100,60 T140,45 T180,30 L200,20" fill="none"
+                stroke="rgba(8,145,178,0.7)" stroke-width="2.5" stroke-linecap="round" />
+              <path class="line-path" d="M20,115 Q50,108 70,95 T110,75 T150,65 T190,50 L200,42" fill="none"
+                stroke="rgba(99,102,160,0.4)" stroke-width="1.5" stroke-dasharray="4,4" />
+            </svg>
+          </div>
+          <div class="layanan-content">
+            <span class="layanan-number">Layanan 03</span>
+            <h2>Kursus Statistik</h2>
+            <p>Program belajar terstruktur dari dasar hingga mahir. Dirancang untuk individu yang ingin menguasai
+              statistik untuk pengembangan karir atau akademis.</p>
+            <div class="layanan-features">
+              <h4>Yang Anda Dapatkan:</h4>
+              <ul>
+                <li><span class="check">✓</span> Kurikulum bertahap (Basic → Advanced)</li>
+                <li><span class="check">✓</span> Bimbingan personal one-on-one</li>
+                <li><span class="check">✓</span> Studi kasus &amp; latihan soal</li>
+                <li><span class="check">✓</span> Jadwal fleksibel</li>
+                <li><span class="check">✓</span> Sertifikat kompetensi</li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary" onclick="goToContact('Kursus Statistik')">Pesan Layanan
+              Ini</a>
+          </div>
+        </div>
+
+        <!-- Layanan 4: Konsultasi Statistik -->
+        <div class="layanan-item reverse reveal">
+          <div class="layanan-visual">
+            <!-- Animated Scatter Plot -->
+            <svg class="scatter-svg" width="200" height="160" viewBox="0 0 200 160">
+              <line x1="20" y1="140" x2="190" y2="140" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+              <line x1="20" y1="140" x2="20" y2="10" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+              <circle class="scatter-dot" cx="40" cy="110" r="5" fill="rgba(8,145,178,0.5)" />
+              <circle class="scatter-dot" cx="60" cy="95" r="7" fill="rgba(8,145,178,0.6)" />
+              <circle class="scatter-dot" cx="80" cy="100" r="4" fill="rgba(99,102,160,0.5)" />
+              <circle class="scatter-dot" cx="95" cy="75" r="6" fill="rgba(8,145,178,0.55)" />
+              <circle class="scatter-dot" cx="110" cy="80" r="5" fill="rgba(158,142,126,0.5)" />
+              <circle class="scatter-dot" cx="130" cy="55" r="7" fill="rgba(8,145,178,0.65)" />
+              <circle class="scatter-dot" cx="145" cy="60" r="4" fill="rgba(99,102,160,0.45)" />
+              <circle class="scatter-dot" cx="160" cy="40" r="6" fill="rgba(8,145,178,0.7)" />
+              <circle class="scatter-dot" cx="175" cy="30" r="5" fill="rgba(8,145,178,0.5)" />
+              <circle class="scatter-dot" cx="185" cy="25" r="8" fill="rgba(8,145,178,0.75)" />
+              <line x1="35" y1="115" x2="188" y2="22" stroke="rgba(8,145,178,0.2)" stroke-width="1.5"
+                stroke-dasharray="4,4" />
+            </svg>
+          </div>
+          <div class="layanan-content">
+            <span class="layanan-number">Layanan 04</span>
+            <h2>Konsultasi Statistik</h2>
+            <p>Sesi diskusi one-on-one dengan ahli statistik kami untuk membahas metodologi, interpretasi hasil, atau
+              perencanaan riset Anda secara mendalam.</p>
+            <div class="layanan-features">
+              <h4>Yang Anda Dapatkan:</h4>
+              <ul>
+                <li><span class="check">✓</span> Konsultasi tatap muka / online</li>
+                <li><span class="check">✓</span> Review metodologi penelitian</li>
+                <li><span class="check">✓</span> Rekomendasi metode analisis</li>
+                <li><span class="check">✓</span> Interpretasi output software</li>
+                <li><span class="check">✓</span> Follow-up via WhatsApp</li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary" onclick="goToContact('Konsultasi Statistik')">Pesan
+              Layanan Ini</a>
+          </div>
+        </div>
+
+        <!-- Layanan 5: Pendampingan Skripsi/Tesis -->
+        <div class="layanan-item reveal">
+          <div class="layanan-visual">
+            <svg width="180" height="140" viewBox="0 0 180 140">
+              <!-- Graduation cap icon animated -->
+              <g transform="translate(90,70)">
+                <polygon points="-50,0 0,-25 50,0 0,25" fill="rgba(8,145,178,0.15)" stroke="rgba(8,145,178,0.4)"
+                  stroke-width="1.5">
+                  <animateTransform attributeName="transform" type="scale" values="0.95;1.05;0.95" dur="3s"
+                    repeatCount="indefinite" />
+                </polygon>
+                <line x1="0" y1="0" x2="0" y2="30" stroke="rgba(8,145,178,0.4)" stroke-width="1.5" />
+                <rect x="-15" y="28" width="30" height="6" rx="2" fill="rgba(8,145,178,0.3)">
+                  <animate attributeName="width" values="28;32;28" dur="3s" repeatCount="indefinite" />
+                  <animate attributeName="x" values="-14;-16;-14" dur="3s" repeatCount="indefinite" />
+                </rect>
+                <line x1="50" y1="0" x2="55" y2="20" stroke="rgba(99,102,160,0.4)" stroke-width="1.5" />
+                <circle cx="55" cy="23" r="3" fill="rgba(99,102,160,0.4)">
+                  <animate attributeName="cy" values="22;25;22" dur="2s" repeatCount="indefinite" />
+                </circle>
+              </g>
+            </svg>
+          </div>
+          <div class="layanan-content">
+            <span class="layanan-number">Layanan 05</span>
+            <h2>Pendampingan Skripsi/Tesis</h2>
+            <p>Bimbingan eksklusif untuk mahasiswa akhir. Kami mendampingi dari perumusan masalah, metodologi, analisis,
+              hingga interpretasi hasil penelitian.</p>
+            <div class="layanan-features">
+              <h4>Yang Anda Dapatkan:</h4>
+              <ul>
+                <li><span class="check">✓</span> Review proposal &amp; BAB 1-3</li>
+                <li><span class="check">✓</span> Bantuan penyusunan instrumen</li>
+                <li><span class="check">✓</span> Pengolahan &amp; analisis data BAB 4</li>
+                <li><span class="check">✓</span> Penulisan hasil &amp; pembahasan</li>
+                <li><span class="check">✓</span> Simulasi sidang &amp; persiapan</li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary"
+              onclick="goToContact('Pendampingan Skripsi/Tesis')">Pesan Layanan Ini</a>
+          </div>
+        </div>
+
+        <!-- Layanan 6: Dashboard Interaktif -->
+        <div class="layanan-item reverse reveal">
+          <div class="layanan-visual">
+            <!-- Mini Dashboard Illustration -->
+            <svg width="220" height="160" viewBox="0 0 220 160">
+              <rect x="10" y="10" width="200" height="140" rx="10" fill="none" stroke="rgba(8,145,178,0.2)"
+                stroke-width="1.5" />
+              <rect x="10" y="10" width="200" height="25" rx="10" fill="rgba(8,145,178,0.08)" />
+              <circle cx="28" cy="22" r="4" fill="rgba(8,145,178,0.3)" />
+              <circle cx="42" cy="22" r="4" fill="rgba(99,102,160,0.3)" />
+              <circle cx="56" cy="22" r="4" fill="rgba(158,142,126,0.3)" />
+              <!-- Mini bar chart in dashboard -->
+              <rect x="20" y="100" width="14" height="30" rx="2" fill="rgba(8,145,178,0.3)">
+                <animate attributeName="height" values="20;30;20" dur="2s" repeatCount="indefinite" />
+                <animate attributeName="y" values="110;100;110" dur="2s" repeatCount="indefinite" />
+              </rect>
+              <rect x="40" y="85" width="14" height="45" rx="2" fill="rgba(8,145,178,0.45)">
+                <animate attributeName="height" values="35;45;35" dur="2.5s" repeatCount="indefinite" />
+                <animate attributeName="y" values="95;85;95" dur="2.5s" repeatCount="indefinite" />
+              </rect>
+              <rect x="60" y="75" width="14" height="55" rx="2" fill="rgba(8,145,178,0.6)">
+                <animate attributeName="height" values="45;55;45" dur="2.2s" repeatCount="indefinite" />
+                <animate attributeName="y" values="85;75;85" dur="2.2s" repeatCount="indefinite" />
+              </rect>
+              <rect x="80" y="90" width="14" height="40" rx="2" fill="rgba(99,102,160,0.5)">
+                <animate attributeName="height" values="30;40;30" dur="2.8s" repeatCount="indefinite" />
+                <animate attributeName="y" values="100;90;100" dur="2.8s" repeatCount="indefinite" />
+              </rect>
+              <!-- Mini line chart -->
+              <polyline points="110,120 125,100 140,110 155,85 170,90 185,70 200,65" fill="none"
+                stroke="rgba(8,145,178,0.4)" stroke-width="2" stroke-linecap="round">
+                <animate attributeName="points"
+                  values="110,120 125,100 140,110 155,85 170,90 185,70 200,65;110,115 125,105 140,95 155,90 170,80 185,75 200,60;110,120 125,100 140,110 155,85 170,90 185,70 200,65"
+                  dur="4s" repeatCount="indefinite" />
+              </polyline>
+              <!-- KPI card -->
+              <rect x="110" y="44" width="95" height="35" rx="6" fill="rgba(8,145,178,0.06)"
+                stroke="rgba(8,145,178,0.15)" stroke-width="1" />
+              <text x="157" y="60" text-anchor="middle" font-size="8" fill="rgba(0,0,0,0.3)">Total Revenue</text>
+              <text x="157" y="72" text-anchor="middle" font-size="11" font-weight="700" fill="rgba(8,145,178,0.6)">↑
+                24.5%</text>
+              <!-- Pie mini -->
+              <circle cx="45" cy="60" r="18" fill="none" stroke="rgba(8,145,178,0.15)" stroke-width="8" />
+              <circle cx="45" cy="60" r="18" fill="none" stroke="rgba(8,145,178,0.5)" stroke-width="8"
+                stroke-dasharray="70 113" stroke-dashoffset="28" transform="rotate(-90 45 60)">
+                <animateTransform attributeName="transform" type="rotate" from="0 45 60" to="360 45 60" dur="10s"
+                  repeatCount="indefinite" />
+              </circle>
+            </svg>
+          </div>
+          <div class="layanan-content">
+            <span class="layanan-number">Layanan 06</span>
+            <h2>Pembuatan Dashboard Interaktif</h2>
+            <p>Visualisasi data bisnis Anda dalam satu layar interaktif yang mudah dipahami. Dashboard yang powerful
+              untuk pengambilan keputusan berbasis data.</p>
+            <div class="layanan-features">
+              <h4>Yang Anda Dapatkan:</h4>
+              <ul>
+                <li><span class="check">✓</span> Design dashboard sesuai kebutuhan</li>
+                <li><span class="check">✓</span> Integrasi multi-sumber data</li>
+                <li><span class="check">✓</span> Visualisasi interaktif &amp; real-time</li>
+                <li><span class="check">✓</span> Training penggunaan dashboard</li>
+                <li><span class="check">✓</span> Maintenance &amp; support</li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary"
+              onclick="goToContact('Pembuatan Dashboard Interaktif')">Pesan Layanan Ini</a>
+          </div>
+        </div>
+
+        <!-- Layanan 7: Aplikasi Web -->
+        <div class="layanan-item reveal">
+          <div class="layanan-visual">
+            <svg width="200" height="150" viewBox="0 0 200 150">
+              <!-- Code/Web app illustration -->
+              <rect x="20" y="15" width="160" height="120" rx="8" fill="none" stroke="rgba(8,145,178,0.25)"
+                stroke-width="1.5" />
+              <rect x="20" y="15" width="160" height="22" rx="8" fill="rgba(8,145,178,0.06)" />
+              <circle cx="35" cy="26" r="3.5" fill="rgba(8,145,178,0.3)" />
+              <circle cx="47" cy="26" r="3.5" fill="rgba(99,102,160,0.3)" />
+              <circle cx="59" cy="26" r="3.5" fill="rgba(158,142,126,0.3)" />
+              <!-- Code lines -->
+              <rect x="35" y="50" width="60" height="4" rx="2" fill="rgba(8,145,178,0.2)">
+                <animate attributeName="width" values="50;60;50" dur="3s" repeatCount="indefinite" />
+              </rect>
+              <rect x="35" y="60" width="90" height="4" rx="2" fill="rgba(99,102,160,0.15)">
+                <animate attributeName="width" values="80;90;80" dur="3.5s" repeatCount="indefinite" />
+              </rect>
+              <rect x="50" y="70" width="70" height="4" rx="2" fill="rgba(8,145,178,0.18)">
+                <animate attributeName="width" values="60;70;60" dur="2.8s" repeatCount="indefinite" />
+              </rect>
+              <rect x="50" y="80" width="50" height="4" rx="2" fill="rgba(99,102,160,0.12)" />
+              <rect x="35" y="90" width="80" height="4" rx="2" fill="rgba(8,145,178,0.15)">
+                <animate attributeName="width" values="70;80;70" dur="3.2s" repeatCount="indefinite" />
+              </rect>
+              <rect x="35" y="100" width="40" height="4" rx="2" fill="rgba(158,142,126,0.15)" />
+              <rect x="35" y="110" width="65" height="4" rx="2" fill="rgba(8,145,178,0.12)" />
+              <!-- Cursor blinking -->
+              <rect x="100" y="108" width="2" height="8" fill="rgba(8,145,178,0.6)">
+                <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+              </rect>
+            </svg>
+          </div>
+          <div class="layanan-content">
+            <span class="layanan-number">Layanan 07</span>
+            <h2>Pembuatan Aplikasi Web</h2>
+            <p>Pengembangan aplikasi web berbasis data dan statistik untuk kebutuhan khusus organisasi atau bisnis Anda
+              dengan teknologi terkini.</p>
+            <div class="layanan-features">
+              <h4>Yang Anda Dapatkan:</h4>
+              <ul>
+                <li><span class="check">✓</span> Aplikasi web custom sesuai kebutuhan</li>
+                <li><span class="check">✓</span> UI/UX design modern &amp; responsif</li>
+                <li><span class="check">✓</span> Integrasi API &amp; database</li>
+                <li><span class="check">✓</span> Deployment &amp; hosting</li>
+                <li><span class="check">✓</span> Dokumentasi &amp; training</li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary" onclick="goToContact('Pembuatan Aplikasi Web')">Pesan
+              Layanan Ini</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="reveal">Butuh Layanan Khusus?</h2>
+        <p class="reveal">Tidak menemukan layanan yang sesuai? Hubungi kami dan diskusikan kebutuhan spesifik Anda.</p>
+        <a href="javascript:void(0)" class="btn btn-white btn-lg reveal" onclick="openWhatsApp()">Konsultasi Gratis
+          Sekarang</a>
+      </div>
+    </section>
+
+  </div>
+  <!-- END PAGE: LAYANAN -->
+
+
+  <!-- ================================================================ -->
+  <!-- ========== PAGE: PORTOFOLIO ========== -->
+  <!-- ================================================================ -->
+  <div class="page" id="page-portofolio">
+
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="reveal">Portofolio Kami</h1>
+        <p class="reveal">Beberapa proyek pilihan yang telah kami kerjakan untuk klien dari berbagai bidang dan
+          industri.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-section">
+      <div class="container">
+
+        <!-- Kategori: Statistik Spasial -->
+        <div class="portfolio-category reveal">
+          <h2>📊 Statistik Spasial</h2>
+          <p>Analisis data yang mempertimbangkan aspek lokasi dan keruangan.</p>
+          <div class="portfolio-grid">
+            <div class="portfolio-card reveal">
+              <h3>Autokorelasi Spasial - Pemetaan Hotspot DBD</h3>
+              <p>Identifikasi wilayah hotspot penyebaran Demam Berdarah Dengue menggunakan Local Indicator of Spatial
+                Association (LISA) dan Moran's I di Provinsi Banten.</p>
+              <div class="portfolio-meta">
+                <div class="portfolio-meta-item">
+                  <strong>Cakupan:</strong> Provinsi Banten
+                </div>
+                <div class="portfolio-meta-item">
+                  <strong>Metode:</strong> LISA, Moran's I, Spatial Cluster
+                </div>
+              </div>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">R</span>
+                <span class="portfolio-tag">GeoDa</span>
+                <span class="portfolio-tag">LISA</span>
+                <span class="portfolio-tag">Autokorelasi Spasial</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1VIqZfOmH__V4x_LPeJj-_hCXrEbwRKH6/view" target="_blank" class="portfolio-doc-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                Lihat Dokumen
+              </a>
+            </div>
+            <div class="portfolio-card reveal reveal-delay-1">
+              <h3>Analisis GTWR - Faktor Stunting di Sulawesi Selatan</h3>
+              <p>Pemodelan Geographically and Temporally Weighted Regression untuk menganalisis faktor stunting yang
+                bervariasi antar wilayah dan waktu.</p>
+              <div class="portfolio-meta">
+                <div class="portfolio-meta-item">
+                  <strong>Cakupan:</strong> 24 Kabupaten/Kota, 3 Tahun
+                </div>
+                <div class="portfolio-meta-item">
+                  <strong>Metode:</strong> GTWR, GWR, OLS
+                </div>
+              </div>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">R</span>
+                <span class="portfolio-tag">GTWR</span>
+                <span class="portfolio-tag">Health Stats</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1VAnZmZAOMU66Vqm6PmDtPFka6NCFrEdH/view" target="_blank" class="portfolio-doc-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                Lihat Dokumen
+              </a>
+            </div>
+            <div class="portfolio-card reveal">
+              <h3>Analisis GWR Panel - Investasi &amp; PDRB</h3>
+              <p>Analisis pengaruh investasi terhadap PDRB menggunakan model GWR Panel data spasial (SAR, SEM, SDM) di
+                kawasan Indonesia Timur.</p>
+              <div class="portfolio-meta">
+                <div class="portfolio-meta-item">
+                  <strong>Cakupan:</strong> 13 Provinsi, 5 Tahun
+                </div>
+                <div class="portfolio-meta-item">
+                  <strong>Metode:</strong> GWR Panel, SAR Panel, SDM
+                </div>
+              </div>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">R</span>
+                <span class="portfolio-tag">Stata</span>
+                <span class="portfolio-tag">GWR Panel</span>
+                <span class="portfolio-tag">Panel Spasial</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1V6GIXi7_KT5yFP068UwlW-YhkPDFp3Ga/view" target="_blank" class="portfolio-doc-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                Lihat Dokumen
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kategori: SEM -->
+        <div class="portfolio-category reveal">
+          <h2>🔬 Structural Equation Modeling (SEM)</h2>
+          <p>Analisis hubungan kausalitas antar variabel laten menggunakan pendekatan SEM.</p>
+          <div class="portfolio-grid">
+            <div class="portfolio-card reveal">
+              <h3>SEM dengan AMOS - Model Perilaku Konsumen</h3>
+              <p>Pengembangan dan validasi model perilaku konsumen dalam memilih produk organik menggunakan
+                Covariance-Based SEM dengan AMOS.</p>
+              <div class="portfolio-meta">
+                <div class="portfolio-meta-item">
+                  <strong>Sampel:</strong> 420 Responden
+                </div>
+                <div class="portfolio-meta-item">
+                  <strong>Metode:</strong> CB-SEM, CFA, Path Analysis
+                </div>
+              </div>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">AMOS</span>
+                <span class="portfolio-tag">CB-SEM</span>
+                <span class="portfolio-tag">Consumer Behavior</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1VbYWBZzRNmbf45yrjZjzgc8nyr3BZPmw/view" target="_blank" class="portfolio-doc-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                Lihat Dokumen
+              </a>
+            </div>
+            <div class="portfolio-card reveal reveal-delay-1">
+              <h3>SEM dengan LISREL - Analisis Faktor Konfirmatori</h3>
+              <p>Implementasi Structural Equation Modeling menggunakan LISREL untuk analisis faktor konfirmatori dan pengujian model struktural dengan pendekatan Maximum Likelihood.</p>
+              <div class="portfolio-meta">
+                <div class="portfolio-meta-item">
+                  <strong>Sampel:</strong> 380 Responden
+                </div>
+                <div class="portfolio-meta-item">
+                  <strong>Metode:</strong> CB-SEM, CFA, LISREL
+                </div>
+              </div>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">LISREL</span>
+                <span class="portfolio-tag">CB-SEM</span>
+                <span class="portfolio-tag">CFA</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1W4PgGFjkxZqcWSPl-edteTvL6xH_pOeY/view" target="_blank" class="portfolio-doc-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                Lihat Dokumen
+              </a>
+            </div>
+            <div class="portfolio-card reveal">
+              <h3>SEM dengan SmartPLS - Kualitas Layanan &amp; Loyalitas</h3>
+              <p>Menganalisis pengaruh kualitas layanan, kepuasan pelanggan, dan kepercayaan terhadap loyalitas
+                pelanggan e-commerce menggunakan SmartPLS.</p>
+              <div class="portfolio-meta">
+                <div class="portfolio-meta-item">
+                  <strong>Sampel:</strong> 350 Responden
+                </div>
+                <div class="portfolio-meta-item">
+                  <strong>Metode:</strong> PLS-SEM, Bootstrapping
+                </div>
+              </div>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">SmartPLS</span>
+                <span class="portfolio-tag">PLS-SEM</span>
+                <span class="portfolio-tag">E-commerce</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1VqP8-w1B44ZOw_LQ9OWe_aGoOhKF96XK/view" target="_blank" class="portfolio-doc-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                Lihat Dokumen
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="reveal">Ingin Proyek Anda Jadi yang Selanjutnya?</h2>
+        <p class="reveal">Diskusikan kebutuhan analisis data Anda bersama tim ahli kami.</p>
+        <a href="javascript:void(0)" class="btn btn-white btn-lg reveal" onclick="openWhatsApp()">Mulai Diskusi</a>
+      </div>
+    </section>
+
+  </div>
+  <!-- END PAGE: PORTOFOLIO -->
+
+
+  <!-- ================================================================ -->
+  <!-- ========== PAGE: KONTAK ========== -->
+  <!-- ================================================================ -->
+  <div class="page" id="page-kontak">
+
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="reveal">Hubungi Kami</h1>
+        <p class="reveal">Siap membantu Anda mengatasi tantangan data. Konsultasi awal kami gratis, tanpa komitmen.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <div class="contact-form-card reveal">
+            <h2>Kirim Pesan</h2>
+            <p>Isi formulir di bawah ini dan kami akan menghubungi Anda melalui WhatsApp.</p>
+            <form id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Nama Lengkap</label>
+                  <input type="text" id="contact-name" placeholder="Budi Santoso" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Alamat Email</label>
+                  <input type="email" id="contact-email" placeholder="budi@example.com" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-wa">Nomor WhatsApp</label>
+                  <input type="tel" id="contact-wa" placeholder="081234567890" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-service">Layanan yang Dibutuhkan</label>
+                  <select id="contact-service" required>
+                    <option value="" disabled selected>Pilih layanan...</option>
+                    <option value="Analisis Data">Analisis Data</option>
+                    <option value="Pelatihan Statistik">Pelatihan Statistik</option>
+                    <option value="Kursus Statistik">Kursus Statistik</option>
+                    <option value="Konsultasi Statistik">Konsultasi Statistik</option>
+                    <option value="Pendampingan Skripsi/Tesis">Pendampingan Skripsi/Tesis</option>
+                    <option value="Pembuatan Dashboard Interaktif">Dashboard Interaktif</option>
+                    <option value="Pembuatan Aplikasi Web">Aplikasi Web</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Pesan &amp; Detail Singkat</label>
+                <textarea id="contact-message"
+                  placeholder="Ceritakan secara singkat mengenai data atau masalah yang sedang Anda hadapi..."
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn-submit">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+                Kirim Permintaan Konsultasi
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="contact-info reveal">
+            <h2>Informasi Kontak</h2>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <h4>Alamat Kantor</h4>
+                <p>Grand Sutera Cilegon<br>Kota Cilegon, Banten</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                </svg>
+              </div>
+              <div>
+                <h4>Telepon &amp; WhatsApp</h4>
+                <p><a href="https://wa.me/6289531852251">+62 895 3185 2251</a></p>
+                <p style="font-size: 0.82rem; color: var(--gray-500);">(Fast response pada jam kerja)</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p><a href="mailto:7statistics@gmail.com">7statistics@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <h4>Jam Operasional</h4>
+                <p>Senin - Jumat: 09:00 - 17:00 WIB<br>Sabtu: 09:00 - 14:00 WIB<br>Minggu: Tutup</p>
+              </div>
+            </div>
+
+            <div class="contact-note">
+              * Untuk layanan darurat atau tenggat waktu ketat, silakan cantumkan "URGENT" pada awal pesan Anda.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- END PAGE: KONTAK -->
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="logo.png" alt="SEVEN Statistics Logo">
+          <p>Konsultan statistik terpercaya untuk mahasiswa, peneliti, dan profesional. Mengubah data menjadi wawasan
+            yang bermakna.</p>
+        </div>
+
+        <!-- Layanan -->
+        <div class="footer-col">
+          <h4>Layanan Kami</h4>
+          <ul>
+            <li><a href="#layanan">→ Analisis Data</a></li>
+            <li><a href="#layanan">→ Pelatihan Statistik</a></li>
+            <li><a href="#layanan">→ Kursus Statistik</a></li>
+            <li><a href="#layanan">→ Konsultasi Statistik</a></li>
+            <li><a href="#layanan">→ Pendampingan Skripsi/Tesis</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Tautan Cepat</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#kontak">Kontak Kami</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Hubungi Kami</h4>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <span>Grand Sutera Cilegon, Kota Cilegon, Banten</span>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+              </svg>
+            </div>
+            <span>+62 895 3185 2251</span>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <span>7statistics@gmail.com</span>
+          </div>
+          <a href="javascript:void(0)" class="btn btn-outline"
+            style="margin-top: 16px; padding: 10px 20px; font-size: 0.85rem;" onclick="openWhatsApp()">Mulai
+            Konsultasi</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SEVEN Statistics. Hak Cipta Dilindungi.</p>
+        <a href="#">Syarat &amp; Ketentuan | Kebijakan Privasi</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
